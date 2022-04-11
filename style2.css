@@ -1,0 +1,154 @@
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+font-size: 1.5rem;
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+
+nav {
+border: 1px solid #333;
+margin: 1rem auto;
+background-color: #eee;
+background-image: url("https://assets.codepen.io/296057/lil-graydots.png");
+border-bottom: 5px solid #00bff3;
+border-top: 5px solid #00bff3;
+}
+
+nav a {
+color: #00bff3;
+text-decoration: none;
+font-size: 1.5rem;
+font-weight: 600;
+display: block;
+padding: 0.5rem 1rem;
+}
+
+nav a:focus {
+background-color: #f0c808;
+color: black;
+}
+nav a:hover {
+background-color: #f0c808;
+color: #ff583d;
+background-image: url("https://assets.codepen.io/296057/lil-yellowdots.png");
+}
+.active {
+color: #ff583d;
+background-color: #c5e5ed;
+background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+
+html {
+box-sizing: border-box;
+}
+box-sizing: inherit;
+}
+body {
+font-family: "Roboto Slab", serif;
+font-weight: 400;
+margin: 0;
+padding: 0;
+font-size: 1.2rem;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #F0F8FF;
+}
+
+li {
+float: center;
+border-right: 1px solid #bbb;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #F0F8FF;
+}
+body {background-image: url("https://tvax1.sinaimg.cn/crop.0.0.252.252.180/006kx1sEly8h0ximcjx87j3070070aa2.jpg?KID=imgbed,tva&Expires=1649052891&ssig=8oCpts78OI");
+background-size: cover;
+background-position: left;
+height: 200px;
+}
+/* Old browsers */
+background:#F0F8FF;
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(-45deg, #ffcccc, #00ffff);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(-45deg, #35577D, #0040ff);
+margin: 0;
+padding: 0;
+}
+
+h1 {
+color: 	#000000;
+font-size: 2em;
+padding-top: 100px;
+width: 100%;
+}
+
+h2 {
+
+}
+
+p {
+color: aliceblue;
+line-height: 1.3em;
+text-align: center;
+width: 100%;
+}
+
+.byline {
+font-family: Helvetica;
+color: rgba(255, 255, 255, 0.5);
+float: left;
+font-size: 14px;
+padding-left: 10px;
+text-transform: uppercase;
+}
+
+.caption {
+display: block;
+font-family: 'Playfair Display', serif;
+font-size: 34px;
+font-style: italic;
+line-height: 34px;
+margin-left: 20px;
+padding: 10px;
+position: relative;
+text-align: center;
+top: 50%;
+width: 90%;
+}
+
+.content {
+padding: 40px;
+}
+
+.image {
+background-image: url("https://tvax1.sinaimg.cn/crop.0.0.252.252.180/006kx1sEly8h0ximcjx87j3070070aa2.jpg?KID=imgbed,tva&Expires=1649052891&ssig=8oCpts78OI");
+background-size: cover;
+background-position: left;
+height: 200px;
+}
+
+.writer-img {
+-webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+-moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+float: left;
+width: 50px;
+}
