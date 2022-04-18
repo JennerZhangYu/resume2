@@ -58,10 +58,7 @@ margin: 0;
 padding: 0;
 font-size: 1.2rem;
 }
-  
-  
-  
-  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
 * {
   font-family: Roboto;
@@ -135,4 +132,4 @@ width: 90%;
 
 .content {
 padding: 40px;
-}
+}  
