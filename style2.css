@@ -45,6 +45,10 @@ background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
 html {
 box-sizing: border-box;
 }
+
+*,
+*:before,
+*:after {
 box-sizing: inherit;
 }
 body {
@@ -54,31 +58,26 @@ margin: 0;
 padding: 0;
 font-size: 1.2rem;
 }
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #F0F8FF;
+  
+  
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
 }
 
-li {
-float: center;
-border-right: 1px solid #bbb;
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
 }
-
-li a {
-display: block;
-color: white;
-text-align: center;
-padding: 24px 26px;
-text-decoration: none;
-}
-
-li a:hover {
-background-color: #F0F8FF;
-}
-body {background-image: url("https://tvax1.sinaimg.cn/crop.0.0.252.252.180/006kx1sEly8h0ximcjx87j3070070aa2.jpg?KID=imgbed,tva&Expires=1649052891&ssig=8oCpts78OI");
+body {background-image: url(resume.png);
 background-size: cover;
 background-position: left;
 height: 200px;
@@ -136,19 +135,4 @@ width: 90%;
 
 .content {
 padding: 40px;
-}
-
-.image {
-background-image: url("https://tvax1.sinaimg.cn/crop.0.0.252.252.180/006kx1sEly8h0ximcjx87j3070070aa2.jpg?KID=imgbed,tva&Expires=1649052891&ssig=8oCpts78OI");
-background-size: cover;
-background-position: left;
-height: 200px;
-}
-
-.writer-img {
--webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
--moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-float: left;
-width: 50px;
 }
