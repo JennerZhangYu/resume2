@@ -87,6 +87,7 @@ nav ul {
         text-align: left;
         color: rgb(7, 10, 17);
         margin-bottom: 16px;
+        text-align：center;
       }
       thead {
         background-color: rgb(231, 6, 6);
@@ -137,6 +138,7 @@ nav ul {
         text-align: left;
         color: rgb(6, 188, 249);
         margin-bottom: 16px;
+         text-align：center;
       }
       thead {
         background-color: rgb(10, 206, 251);
